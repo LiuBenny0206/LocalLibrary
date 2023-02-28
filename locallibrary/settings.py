@@ -28,7 +28,6 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-x=tj0hv$a)kvlk9
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 ALLOWED_HOSTS = [
-    'hidden-thicket-58472.herokuapp.com/',
 ]
 
 
